@@ -1,0 +1,27 @@
+.services-page {
+  padding: 99px 18px;
+  /* background-image: url("../images/pexels-maria-orlova-4947568.jpg");  */
+  background-attachment: scroll;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 777px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  overflow: hidden;
+  -webkit-background-size: cover;
+  background-position: 50% ;
+}
+
+.services {
+ 
+  width: 100%;
+}
+
+.service {
+margin: 9px;
+padding: 9px;
+background-color: grey;
+}
