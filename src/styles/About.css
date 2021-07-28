@@ -4,7 +4,7 @@
 }
 
 .about-container {
-  /* background-image: url("../images/IMG_0382.jpg");   */
+  background-image: url("../images/IMG_8806.jpg");  
   background-attachment: scroll;
   background-repeat: no-repeat;
   background-size: cover;
@@ -20,7 +20,7 @@
   align-items: flex-start;
   justify-content: flex-start;
   color: white;
-  background-position: 50% ;
+  background-position: 100% ;
 }
 
 .about-content {

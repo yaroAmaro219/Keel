@@ -16,10 +16,10 @@ export default class Home1 extends Component {
           {/* <h1 class='title'>Find Your Shot</h1> */}
           <div class='home-sub-content'>
           <h3 class='page-title1'>Professional Actor in New York & LA</h3>
-          <div class='main-btn-container'>
+          {/* <div class='main-btn-container'>
           <a class="main-btn1" href='/insights'>View Work</a>
               <a class='main-btn2' href='/contact'>Contact Us</a>
-              </div>
+              </div> */}
             </div>
         </div> 
         {/* <div class='home1'>

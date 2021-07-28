@@ -26,9 +26,9 @@ const Menu = ({ open, ...props }) => {
       <a href="/about" tabIndex={tabIndex}>
        About 
       </a>
-      <a href="/reviews" tabIndex={tabIndex}>
+      {/* <a href="/reviews" tabIndex={tabIndex}>
        Reviews
-        </a>
+        </a> */}
         {/* <a href="/team" tabIndex={tabIndex}>
        Our Team
         </a> */}
