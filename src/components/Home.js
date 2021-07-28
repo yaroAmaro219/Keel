@@ -38,7 +38,7 @@ export default class Home1 extends Component {
         </div>  */}
         </div>
         <div class='home-content1'>
-          <h1>Photography</h1>
+          <h1>Acting</h1>
           <div class='home-content1-1'>
           <p class='home-p'>Acting requires two things above all: bravery and honesty. But when the subject is yourself, sometimes you can’t see the forest for the trees. 
 
