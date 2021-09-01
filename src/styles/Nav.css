@@ -112,7 +112,7 @@
 }
 
 .social {
-  padding: 9px 18px 9px 0;
+  padding: 9px 18px 9px 0 !important;
 }
 
 .blurb {

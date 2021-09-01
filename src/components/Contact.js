@@ -29,16 +29,12 @@ export default class Contact extends Component {
         <div class='contact1'>
             <h2 class='contact-title'>Get in touch</h2>
             <br/>
-            
-           
           <div class='contact3'>
-            <h2>Brooklyn, New York</h2>
-          <h1><a class='phone' href='tel:3474006623'>347-400-6623</a></h1>
-            <h3><a class='phone' href="mailto:convertedcamper@gmail.com">allisonkeel@gmail.com</a></h3>
+            <h2>New York, New York</h2>
+          <h1><a class='phone' href='tel:3474006623'>347-552-0753</a></h1>
+            <h3><a class='phone' href="mailto:allison.peschel.keel@gmail.com">allison.peschel.keel@gmail.com</a></h3>
             </div>
         </div>
-       
-         
           </div>
         </>
     )
