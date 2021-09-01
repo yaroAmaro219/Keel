@@ -394,12 +394,6 @@ video {
     width: 33px;
   }
 
-  /* .footer-container {
-    margin-bottom: 63px;
-    width: 100%;
-    display: none !important;
-  } */
-
   html {
     scroll-behavior: smooth;
   }
@@ -439,12 +433,6 @@ video {
     transition: 0.3;
   }
 
-  /* .buttons {
-    position: absolute;
-    top: 390px;
-    display: flex;
-  } */
-
   .title-container-top {
     display: flex;
     text-align: start;
@@ -453,10 +441,6 @@ video {
     align-items: center;
     margin-right: auto;
   }
-
-  /* .text-container {
-    padding: 330px 18px 0px 18px !important;
-  } */
 
   .home-img {
     height: 550px;
@@ -470,10 +454,6 @@ video {
     display: flex;
     justify-content: center;
     align-items: center;
-
-    /* background-image: url(https://i.imgur.com/SYH7Y2Rl.jpg) !important;
-    background-size: cover;
-    background-position: center; */
   }
 
   .private {
@@ -696,17 +676,6 @@ p {
   margin-top: 45px;
 }
 
-/* .enroll-button {
-  background-color: white;
-  font-weight: 900;
-  font-size: larger;
-  cursor: pointer;
-  color: black;
-  border: none;
-} */
-
-
-
 .web {
   width: 200px;
 }
@@ -746,10 +715,6 @@ p {
   top: 33px;
   cursor: pointer;
 }
-
-/* .span {
-  padding: 18px 0;
-} */
 
 .dropdown-content1 {
   display: flex;
@@ -799,7 +764,6 @@ p {
 
 .title2 {
   color: red;
-  /* font-weight: 900; */
   font-size: 36px;
 }
 
@@ -842,7 +806,6 @@ h1 {
   justify-content: center;
   align-items: center;
   min-height: 100%;
-  /* z-index: 1; */
 }
 
 .first {
@@ -862,10 +825,6 @@ a {
   color: white;
   padding: 54px 270px;
   text-align: start;
-}
-
-.second-text-container {
-  /* padding-left: 400px; */
 }
 
 .pricing {
@@ -910,16 +869,3 @@ a {
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-
-  to {
-    transform: rotate(360deg);
-  }
-}

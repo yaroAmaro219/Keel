@@ -25,6 +25,11 @@
   color: white;
 }
 
+a.web-a {
+  color: white;
+  text-decoration: underline;
+}
+
 .social {
   padding-right: 18px;
   

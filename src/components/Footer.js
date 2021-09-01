@@ -10,6 +10,7 @@ class Footer extends Component {
           <h5>Allie Keel © </h5>
         </div>
         <div class='footer-options'>
+        <a class='footer-choice' href='/contact'>Gallery</a>
           <a class='footer-choice' href='/about'>About</a>
           <a class='footer-choice' href='/contact'>Contact</a>
         </div>

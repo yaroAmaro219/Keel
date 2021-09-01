@@ -10,12 +10,10 @@ export default class Home1 extends Component {
             
           </div>
         <div class='title-container'>
-          {/* <h1 class='title'>Find Your Shot</h1> */}
           <div class='home-sub-content'>
           <h3 class='page-title1'>Professional Actor in New York & LA</h3>
           <div class='main-btn-container'>
-          <a class="main-btn1" href='/insights'>View Work</a>
-              <a class='main-btn2' href='/contact'>Contact</a>
+          <a class="main-btn1" href='/gallery'>View Work</a>
               </div>
             </div>
         </div> 

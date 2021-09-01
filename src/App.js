@@ -46,7 +46,7 @@ class App extends Component {
             <Contact
             />
           )} />
-          <Route exact path="/insights" render={(props) => (
+          <Route exact path="/gallery" render={(props) => (
             <Insights
             />
           )} />

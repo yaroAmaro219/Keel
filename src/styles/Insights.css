@@ -1,6 +1,6 @@
 .insights-container {
   padding: 99px 18px;
-  min-height: 55em;
+  min-height: 65em;
   background-image: url("../images/IMG_8459.jpg");
   background-attachment: scroll;
   display: flex;
@@ -20,4 +20,10 @@
   width: 243px;
   height: 243px;
   padding: 9px;
+}
+
+@media screen and (max-width: 850px) {
+  .insights-container {
+      background-size: cover;
+  }
 }

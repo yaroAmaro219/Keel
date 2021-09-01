@@ -5,20 +5,18 @@
 
 .contact-page-container {
   padding: 99px 81px;
+  min-height: 65em;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   background-image: url("../images/IMG_8459.jpg");
   background-attachment: scroll;
- 
-
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100%;
   overflow: hidden;
- 
   background-position: 50% ;
 }
 
@@ -28,7 +26,7 @@
   align-items: flex-start;
 }
 
-.contact1 {
+.contact3 {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -40,6 +38,7 @@
   opacity: .99;
   padding: 36px;
   z-index: 0;
+  margin-top: 299px !important;
 }
 
 .sub-name {
@@ -66,6 +65,7 @@
 @media screen and (max-width: 850px) {
   .contact-page-container {
     padding: 99px 18px;
+    background-size: cover;
   }
 
   .contact1 {

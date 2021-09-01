@@ -1,8 +1,6 @@
 .services-page {
   padding: 99px 18px;
   background-image: url("../images/IMG_8459.jpg"); 
-  background-attachment: scroll;
-  background-repeat: no-repeat;
   background-size: cover;
   min-height: 777px;
   display: flex;
@@ -11,7 +9,6 @@
   align-items: center;
   height: 100%;
   overflow: hidden;
-  -webkit-background-size: cover;
   background-position: 50% ;
 }
 

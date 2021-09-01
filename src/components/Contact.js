@@ -1,6 +1,4 @@
 import React, { Component } from 'react'
-import { Button, Form} from 'react-bootstrap';
-
 
 export default class Contact extends Component {
   constructor() {
@@ -24,19 +22,14 @@ export default class Contact extends Component {
 
   render() {
     return (
-      <>
       <div class='contact-page-container'>
-        <div class='contact1'>
-            <h2 class='contact-title'>Get in touch</h2>
-            <br/>
           <div class='contact3'>
             <h2>New York, New York</h2>
-          <h1><a class='phone' href='tel:3474006623'>347-552-0753</a></h1>
+          <h2><a class='phone' href='tel:3475520753'>347-552-0753</a></h2>
             <h3><a class='phone' href="mailto:allison.peschel.keel@gmail.com">allison.peschel.keel@gmail.com</a></h3>
             </div>
         </div>
-          </div>
-        </>
+          
     )
   }
 }

@@ -53,17 +53,6 @@
 }
 
 .home-container{
-  /* background-image: url("../images/IMG_1047.JPG");  
-  background-attachment: scroll;
-  background-repeat: no-repeat;
-  background-size: cover;
-  min-height:100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
-  overflow: hidden;
-  -webkit-background-size: cover; */
   background-image: url("../images/IMG_8459.jpg");
   background-attachment: scroll;
   display: flex;
