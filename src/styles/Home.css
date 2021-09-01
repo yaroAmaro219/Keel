@@ -62,14 +62,11 @@
   color: black;
   background-position: 10% -11vw;
   background-attachment: scroll;
-  /* background-repeat: no-repeat; */
-  /* background-size: cover; */
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 999px;
+  min-height: 48em;
   overflow: hidden;
- 
 }
 
 .home-p {
@@ -109,7 +106,6 @@ text-align: start;
 
   .home-container {
     flex-direction: column;
-    height: 777px !important;
     background-position: unset  !important;
     -webkit-background-size: cover;
     background-position: 60% !important;

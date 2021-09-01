@@ -6,7 +6,7 @@
 .about-container {
   background-image: url("../images/IMG_8806.jpg");  
   background-attachment: scroll;
-  min-height: 65em;
+  min-height: 48em;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -42,5 +42,6 @@
   .about-container {
     color: grey;
     min-height: unset !important;
+    background-size: cover ;
   }
 }

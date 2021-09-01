@@ -8,7 +8,6 @@ import Footer from './components/Footer'
 import Insights from './components/Insights'
 import Services from './components/Services'
 import About from './components/About'
-import Reviews from './components/Reviews'
 import Nav from './components/Nav1'
 import './styles/Footer.css'
 import './styles/Home.css'
@@ -16,9 +15,13 @@ import './styles/Nav.css'
 import './styles/Contact.css'
 import './styles/Insights.css'
 import './styles/About.css'
-import './styles/Services.css'
 import './App.css'
 
+// React Transition Group
+import {
+  TransitionGroup,
+  CSSTransition
+} from 'react-transition-group'
 
 class App extends Component {
   constructor() {
@@ -33,6 +36,12 @@ class App extends Component {
     return (
       <div>
         <Nav/>
+        <Route render={({ location }) => (
+        <TransitionGroup>
+          <CSSTransition
+            key={location.key}
+            timeout={500}
+            classNames='fade'>
         <Switch>
         <Route exact path="/" render={(props) => (
             <Home
@@ -50,23 +59,22 @@ class App extends Component {
             <Insights
             />
           )} />
-          <Route exact path="/reviews" render={(props) => (
-            <Reviews
-            />
-          )} />
            <Route exact path="/services" render={(props) => (
             <Services
             />
           )}/>
         </Switch>
+        </CSSTransition>
+        </TransitionGroup>
+        )}/>
         <div class='container'>
-          <a class='mobile' href='/insights'><img class='img-nav' src={cloud}/>Gallery</a>
+          <a class='mobile' href='/gallery'><img class='img-nav' src={cloud}/>Gallery</a>
           <a class='mobile1' href='/contact'><img class='img-nav' src={stack}/>Contact</a>
         </div>
         <div class='footer-container'>
          <Footer />
       </div>
-      </div>
+    </div>
     )
   }
 }
