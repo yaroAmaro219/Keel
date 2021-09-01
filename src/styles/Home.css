@@ -73,8 +73,8 @@
   color: black;
   background-position: 10% -11vw;
   background-attachment: scroll;
-  background-repeat: no-repeat;
-  background-size: cover;
+  /* background-repeat: no-repeat; */
+  /* background-size: cover; */
   display: flex;
   justify-content: center;
   align-items: center;

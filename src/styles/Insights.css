@@ -1,16 +1,13 @@
 .insights-container {
   padding: 99px 18px;
-  min-height: 33em;
+  min-height: 55em;
   background-image: url("../images/IMG_8459.jpg");
   background-attachment: scroll;
-  background-repeat: no-repeat;
-  background-size: cover;
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100%;
   overflow: hidden;
-  -webkit-background-size: cover;
   background-position: 50% ;
 }
 

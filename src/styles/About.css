@@ -6,15 +6,12 @@
 .about-container {
   background-image: url("../images/IMG_8806.jpg");  
   background-attachment: scroll;
-  background-repeat: no-repeat;
-  background-size: cover;
   min-height: 777px;
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100%;
   overflow: hidden;
-  -webkit-background-size: cover;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
