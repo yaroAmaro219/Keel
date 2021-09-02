@@ -1,5 +1,5 @@
-import React, { Component } from 'react'
-import { Route, Switch } from 'react-router-dom'
+import React from 'react'
+import { Route, Switch, withRouter } from 'react-router-dom'
 import cloud from './images/197-cloud-check.svg'
 import stack from './images/047-stack.svg'
 import Home from './components/Home'
@@ -23,16 +23,8 @@ import {
   CSSTransition
 } from 'react-transition-group'
 
-class App extends Component {
-  constructor() {
-    super()
-    
-    this.state = {
-      name: ''
-    }
-  }
-  
-  render() {
+function App () {
+ 
     return (
       <div>
         <Nav/>
@@ -77,7 +69,6 @@ class App extends Component {
     </div>
     )
   }
-}
 
 
-export default App;
+export default withRouter(App);
